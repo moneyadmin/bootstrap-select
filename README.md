@@ -42,6 +42,8 @@ composer require phpnt/bootstrap-select
 use yii\bootstrap\Html;
 use yii\bootstrap\ActiveForm;
 use phpnt\bootstrapSelect\BootstrapSelectAsset;
+
+BootstrapSelectAsset::register($this);
 // теперь, все элементы, которые имеют класс selectpicker, будут стилизованными выпадающими списками
 // массив элементов
 $items = [
